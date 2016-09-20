@@ -1,0 +1,101 @@
+/*
+  ONE DAY ONE STORY TEMPLATE
+*/
+body
+	{
+		background: #ffffff;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		font-size: 13px;
+		overflow-x: hidden;
+	}
+p {
+	line-height: 1.6em;
+}
+h2 {
+	text-transform: uppercase;
+}
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+/* start element */
+.element
+	{
+		position: relative;
+		height: 60px;
+    padding: 15px;
+	}
+/* end element */
+
+/* start countdown */
+#countdown
+	{
+  	background: linear-gradient(90deg, #9cccc8 10%, #30bcc9 90%);
+
+  	color: #ffffff;
+		text-align: center;
+		min-height: 800px;
+		padding: 140px 0 100px 0;
+	}
+#countdown h1
+	{
+		font-size: 80px;
+		font-weight: 700;
+	}
+#countdown h2
+	{
+		font-weight: 300;
+		font-size: 18px;
+		padding-bottom: 40px;
+	}
+#countdown small
+	{
+		font-size: 80px;
+		color: #000;
+		font-weight: bold;
+	}
+ul.countdown
+	{
+		margin: 0;
+		padding: 0;
+	}
+ul.countdown span
+	{
+		font-size: 40px;
+		text-align: center;
+		display: inline-block;
+	}
+ul.countdown li
+	{
+	border-right: 2px solid #fff;
+	font-weight: bold;
+	font-size: 18px;
+	display:inline-block;
+	padding: 0px 40px 0px 40px;
+	}
+ul.countdown li:last-child
+	{
+		border-right: none;
+	}
+ul.countdown li h3
+	{
+		font-size: 18px;
+		font-weight: 500;
+	}
+#countdown .form-control
+	{
+		border: none;
+		border-radius: 0px;
+		box-shadow: none;
+		height: 50px;
+		margin-top: 60px;
+		transition: all 0.4s ease-in-out;
+	}
+#countdown input[type="submit"]
+	{
+		background: #df2076;
+		color: #ffffff;
+		transition: all 0.3s ease;
+	}
+#countdown input[type="submit"]:hover {
+	background: #9a0c55;
+}
+/* end countdown */
