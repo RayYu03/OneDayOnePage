@@ -15,7 +15,20 @@ p {
 h2 {
 	text-transform: uppercase;
 }
+
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+
+/* start title */
+.title h2
+	{
+		color: #000000;
+		font-size: 50px;
+		font-weight: bold;
+		letter-spacing: 4px;
+		padding-bottom: 80px;
+	}
+/* end title */
+
 /* start element */
 .element
 	{
@@ -99,3 +112,41 @@ ul.countdown li h3
 	background: #9a0c55;
 }
 /* end countdown */
+
+/* start features */
+.features
+	{
+		background: linear-gradient(90deg, #ffffff 10%, #c1c1c1 90%);
+		padding-top: 250px;
+		padding-bottom: 200px;
+	}
+.features h2
+		{
+			color: #000000;
+		}
+.features h4
+	{
+		color: #545454;
+		font-weight: bold;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.features .form-control
+		{
+			border: none;
+			border-radius: 0px;
+			box-shadow: none;
+			height: 50px;
+			margin-top: 70px;
+			transition: all 0.4s ease-in-out;
+		}
+	.features input[type="submit"]
+		{
+			background: #4bba54;
+			color: #ffffff;
+			transition: all 0.2s ease;
+		}
+	.features input[type="submit"]:hover {
+		background: #0b9a7c;
+	}
+/* end features */
