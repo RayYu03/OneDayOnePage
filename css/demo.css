@@ -150,3 +150,55 @@ ul.countdown li h3
 		background: #0b9a7c;
 	}
 /* end features */
+/* start authors */
+.team
+{
+	background: #3d3a4b;
+	border-top: 1px solid #f2f2f2;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: left;
+	color: #fff;
+}
+.team .border_right
+{
+	border-right: 1px solid #b4b4b4;
+}
+.team .border_bottom
+{
+	border-bottom: 1px solid #b4b4b4;
+}
+.team h2
+{
+	font-weight: 500;
+	padding-bottom: 100px;
+	text-align: center;
+	color: #42d4b9;
+}
+.team h4
+{
+	text-align: left;;
+}
+.team p
+{
+	text-align: left;;
+}
+.team .media
+{
+	padding: 40px 0 30px 20px;
+}
+.team .media h5
+{
+	color: #28968c;
+	font-weight: bold;
+	padding-bottom: 8px;
+	text-align: left;
+}
+.team img
+  {
+    max-width: 100%;
+		width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+/* end authors */
